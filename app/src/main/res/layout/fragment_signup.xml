@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupFragment"
+    android:background="@drawable/loginn"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/ic_baseline_person_24"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="145dp"
+    />
+    <!-- TODO: Update blank fragment layout -->
+  <EditText
+      android:layout_marginTop="330dp"
+      android:id="@+id/name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter Email"
+      android:padding="15dp"
+      android:background="@drawable/custom_input"
+      android:layout_marginHorizontal="30dp"
+      android:inputType="textEmailAddress"
+      android:drawableStart="@drawable/ic_baseline_person_24"
+      android:drawablePadding="10dp"
+      />
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Enter Password"
+
+        android:drawableStart="@drawable/ic_baseline_key_24"
+        android:drawablePadding="10dp"
+        android:layout_below="@+id/name"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/s_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="70dp"
+        android:text="Sign Up"
+        android:background="@drawable/roundcorner"
+        android:backgroundTint="#318be6"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/s_btn"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already a member?"
+            />
+
+        <TextView
+            android:id="@+id/toLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Login"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:layout_below="@id/s_btn"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:textColor="#318be6"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

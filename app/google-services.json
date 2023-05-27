@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609199857134",
+    "project_id": "fragmentactivity-ee807",
+    "storage_bucket": "fragmentactivity-ee807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609199857134:android:85a460dc108ff47480c2ff",
+        "android_client_info": {
+          "package_name": "com.example.fragmentactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtakUtbBteeN4vzUt1LANR6PT-CIpBkwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
