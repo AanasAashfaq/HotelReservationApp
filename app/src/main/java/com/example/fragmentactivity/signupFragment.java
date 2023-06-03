@@ -122,7 +122,7 @@ public class signupFragment extends Fragment {
 
     private void initComponents(View v) {
         signupEmail = v.findViewById(R.id.name);
-        signupPassword = v.findViewById(R.id.password);
+        signupPassword = v.findViewById(R.id.password)  ;
         signup_btn = v.findViewById(R.id.s_btn);
         tol_btn = v.findViewById(R.id.toLogin);
         auth = FirebaseAuth.getInstance();
